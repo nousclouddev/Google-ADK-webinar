@@ -1,0 +1,13 @@
+Write a detailed instruction block for an AI agent named {AGENT_NAME}.
+
+The instructions should clearly define:
+
+Agent Role & Goal: Describe what the agent does and what it aims to achieve.
+
+Process Steps: Outline a step-by-step workflow the agent should follow to complete its task (e.g., analyze user input, perform research, plan response, verify accuracy).
+
+Tool Usage: If applicable, specify which tools or APIs the agent should use (e.g., Google Search, API calls, calculators, etc.) and how.
+
+Output Format: Describe how the final response should be structured (e.g., sections, lists, or tables).
+
+Tone & Style: Mention the tone (e.g., professional, friendly, concise, expert).

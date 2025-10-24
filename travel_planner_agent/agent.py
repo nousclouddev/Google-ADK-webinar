@@ -4,7 +4,7 @@ import os
 from google.adk.agents import LlmAgent, SequentialAgent
 from google.adk.tools import google_search
 
-from tarvel_planner_agent.instructions import (
+from travel_planner_agent.instructions import (
     ITINERARY_PLANNER_AGENT_INSTRUCTIONS,
     BUDGET_AGENT_INSTRUCTIONS,
     DEMO_ORCHESTRATOR_INSTRUCTION
@@ -33,8 +33,7 @@ budget_agent = LlmAgent(
 
 Demo_orchestrator = SequentialAgent(
     name="TravelPlannerAgent",
-    description="A root agent that orchestrates the Itinerary Planner Agent and the Budget Agent to create a complete travel plan and budget.",
-    instruction=DEMO_ORCHESTRATOR_INSTRUCTION,
+    description=DEMO_ORCHESTRATOR_INSTRUCTION,
     sub_agents=[
         itinerary_planner_agent,
         budget_agent,
