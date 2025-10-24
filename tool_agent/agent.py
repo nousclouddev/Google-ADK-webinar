@@ -25,5 +25,5 @@ root_agent = Agent(
     """,
     tools=[get_weather],
     # tools=[google_search],
-    # tools=[get_weather, google_search], # <--- Doesn't work
+    
 )
